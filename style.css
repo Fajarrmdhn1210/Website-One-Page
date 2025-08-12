@@ -172,3 +172,87 @@ footer {
     padding: 15px 0;
     font-size: 14px;
 }
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+
+  .tentang-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .tentang-wrapper p {
+    text-align: justify;
+    text-indent: 0;
+  }
+
+  .friend-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .friend-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero h2 {
+    font-size: 2.2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navi ul {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .navi li {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .logoimg {
+    width: 40px;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .hero h2 {
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 0.95em;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+
+  .contact-info {
+    font-size: 16px;
+  }
+}
